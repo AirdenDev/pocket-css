@@ -1,0 +1,89 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --bg-primary: #fffffe;
+  --bg-secondary: #2d334a;
+
+  --headline: #272343;
+  --sub-headline: #2d334a;
+
+  --button-text: #272343;
+  --button-bg: #ffd803;
+
+  --highlight: #ffd803;
+
+  --stroke: #272343;
+
+  --color-secondary: #e3f6f5;
+  --color-tertiary: #bae8e8;
+
+
+  /* paddings */
+
+  /* 8px */
+  --padding-sm: calc(1rem * 0.5);
+  
+  /* 16px */
+  --padding-m: 1rem;
+
+  /* 32px */
+
+  --padding-l: calc(1rem * 2);
+
+  /* margins */
+
+  --margin-sm: calc(1rem * 0.5);
+
+  --margin-m: 1rem;
+
+      /* 32px */
+
+  --margin-l: calc(1rem * 2);
+
+
+  /** Border radius **/
+
+  --border-sm: calc(1rem / 2);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: var(--bg-primary);
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Candara", "Perpetua", "Helvetica";
+}
+
+main {
+  padding: var(--padding-m);
+}
+
+ul {
+  list-style: none;
+}
+
